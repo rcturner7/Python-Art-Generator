@@ -39,4 +39,5 @@ In the repository I attached the folder layout of images with sample layer image
 Now you can run the script and the script will generate a Build folder with all potential images generated of all possibilities without duplicates.
 Each image file will be titled on it's hash so the script can determine that no duplicates are created.
 
+Stay tuned for updates and add-ons to this project. Feel free to add comments or requests or issues.
 For anyone who downloads the repository, I hope you enjoy.
