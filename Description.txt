@@ -1,0 +1,22 @@
+The Application Description:
+ - The program is written in Python.
+ - Generates images from a folder:
+  - Main Image Folder "Layers"
+   - Sub-folders:
+    - backgrounds
+    - bodies
+    - eyes
+    - mouths
+    - hair
+(These folders names can be changed, but if names change you need to find the file format within main.py file and change the titles so the application knows which folders to look at.)
+The Application Process:
+ - Reads main folder
+ - Reads subfolders
+ - copies each image layer in each subfolder in the main folder
+ - Adds an image from each layer folder in correct order listed in main.py to produce an image
+ - Goes through and produces as many images, creates a build folder, pastes the images in a build folder, and deletes duplicates.
+  - Every image produced the application hashes each image
+  - Checks for duplicates by the hash of the image
+  - If not a duplicate the new images get placed in a builds folder
+  - And the image of each generated images are named by their hash
+The hashing of the images use the sha256 algorithm.
